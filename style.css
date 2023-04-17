@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background-image: url(./img/email-pattern.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    background-color:rgb(223, 223, 223);
+    padding: 50px;
+    height: 394px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 12px 20px 27px -8px rgba(0, 0, 0, 1);
+}
+
+input {
+    padding: 3px;
+    margin: 20px 0px 20px 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;    
+    font-weight: 600;
+}
+
+img{
+    margin-top: 20px;
+}
